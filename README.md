@@ -10,4 +10,17 @@ Edge cases are inputs to functions that are technically correct, but often cause
 
 If you need help thinking of edge cases, google shall be your friend.
 
-This assignment will be out of
+This assignment will be out of 10.
+
+## Note: To test your main_test.py follow these instructions:
+1. Click on the "shell" tab where the python console is
+2. Type
+```bash
+$ pip3 install pytest
+```
+(Do not include the $)
+3. Once installed, type:
+```bash
+$ pytest
+```
+and watch the green come alive!
