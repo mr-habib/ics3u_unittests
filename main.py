@@ -3,7 +3,15 @@
 # Calculating the average!
 
 def calculate_average(numbers, n=-1):
-    """Calculate the mean average of the first n numbers of a list of numbers"""
+    """Calculate the mean average of the first n numbers of a list of numbers
+    
+    Args:
+        numbers: A list of numbers
+        n: How many numbers of the list to include in the average calculation.
+    
+    Returns:
+        The mean average of the first n numbers of the numbers list
+    """
     # Deal with the default argument
     up_to = n 
     if up_to < 0 or up_to > len(numbers):
